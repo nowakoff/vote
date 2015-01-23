@@ -1,0 +1,302 @@
+/*************general shit *********/
+
+h1 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:20px; }
+h2 { font-family: 'Verdana', Arial, Helvetica, sans-serif; font-size:10px; }
+p { font-family: 'Arial', Helvetica, sans-serif; color: #123456; text-align: center;}
+ol { font-family: 'Arial', Helvetica, sans-serif; }
+li { font-family: 'Arial', Helvetica, sans-serif; }
+a{color: #123456;}
+
+body{
+	margin:auto;
+	display:inline;
+	text-align: center;
+}
+ul {
+	display: block;
+list-style-type: disc;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+-webkit-padding-start: 0;
+
+background-size: 100% 100%;
+		display: inline-block;
+		margin: 0 auto;	
+	}
+
+
+.jumbotron{
+	height: 500px;
+	margin-top: 0;
+}
+
+#login {
+		background: url(Home.jpg) no-repeat 0 0;
+		width: 100%;
+		height: 300px;
+		background-size: 100% 100%;
+		overflow: hidden;
+		display: inline-block;
+		margin: 0 auto;	
+}
+
+h1 {
+	margin: 50px 0 20px;
+}
+#AdminHomePage {
+	display: block;
+	width: 250px;
+}
+
+a:visited {
+	outline;
+	color:yellow;
+}
+
+button:hover {
+    opacity:1.0;
+	color: #003366;
+}
+
+.create {
+	width: 300px;
+	background-image: url("logo.png");
+	text-align: center;
+}
+
+.create {
+	display:block;
+	width: 250px;
+}
+
+div li button {
+	border-radius:25%;
+	text-align:center;
+	width:250px;
+	opacity:0.80;
+}
+
+#election {
+	text-align: center;
+	width: 75%;
+	height: 100%;
+	border-style: solid;
+    border-width: 5px;
+	border-radius: 25%;
+	padding:5% 5% 5% 5%;
+	margin:5%;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#electioncontainer {
+	text-align: center;
+	width: 90%;
+	height: 100%;
+	padding:2.5%;
+	margin:2.5%;
+}
+
+#election input {
+	width:50%;
+	float:left;
+	display:inline-block;
+}
+
+
+
+li {
+	list-style-type:none;
+}
+
+#navbar {
+	position: absolute;
+}
+
+#navbar img {
+	float: left !important;
+	height: 30px;
+	width: 30px;
+	display: inline;
+	vertical-align: middle;
+	border-color: 0;
+
+}
+#navbar button{
+	float: left;
+	background-color: white;
+	border-radius: 20%;
+}
+
+#slide {
+	left: -200px;
+}
+#vq{display: block;}
+#vq button{
+	width: 100%;
+	background-color:#fff;
+	color:#123456; 
+}
+button{display: list-item;}
+
+#results{
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin: 55px 0 0;
+
+}
+#results div{
+	text-align: center;
+	border:2px outset;
+	background: #fff;
+	position: relative;
+	height: 40px;
+	padding: 1px 0 0;
+}
+#results h3 {
+	font-size: 10px;
+	white-space: nowrap;
+	margin: 13px 0 0;
+}
+#results span {
+	position: absolute;
+	right: -40px;
+	top: 10px;
+}
+
+#results div+div {
+	border-top:0;
+}
+#bill{
+width: 73%;
+}	
+
+#george{
+width: 56%;
+}	
+#richard{
+width: 52%;
+}	
+#ronald{
+width: 48%;
+}	
+#abraham{
+width: 42%;
+}	
+#jefferson{
+width: 40%;
+}	
+
+
+#same {
+	text-align: center;
+}
+#same button{
+	width: 100%;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+}
+button.s{
+	background-color: white !important;
+	color: #123456 !important;
+}
+#results a{
+	text-decoration: none;
+}
+#table{
+
+	height: 100px;
+	overflow-y: scroll;
+}
+
+
+#nice h2 {
+    font-family:arial;
+}
+
+#nice form {
+    display: inline-block;
+}
+
+#nice #button{
+    display: inline-block;
+    height:20px;
+	width:50px;
+	background-color:#123456;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+#button:hover{
+	background-color: green !important;
+}
+
+#nice .list {
+	font-family:garamond;
+	color:#123456;
+}
+
+.dropdown button{
+	width: 100%;
+}
+
+img{
+	width:95%;
+	display: inline;
+
+}
+
+#tablee button{
+    width: 50px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#button2 {
+    width: 54px;
+	background-color: #123456;
+	color: #fff;
+	border:1px outset;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+input{
+	text-align: center;
+}
+
+.grey{color:grey;}
+
+.form-control{
+	font-size: 12px !important;
+	color: #ccc !important;
+}
+
+.jumbotron h1{
+	color: #003366 !important;
+	font-weight: bold;
+	font-size: 30px !important;
+}
+
+button{
+	height: 40px;
+}
+button:hover{
+	background-color:green !important;
+}
+
